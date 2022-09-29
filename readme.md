@@ -1,12 +1,10 @@
-# XSY_MTMC T_baeline_1
+# XSY_MTMC T_baeline_2
 Gaojian Wang
 
-XSY_MTMCT_base_1主要基于AIC21-MTMC中的1st优胜方案
-[City-Scale Multi-Camera Vehicle Tracking Guided by Crossroad Zones](https://arxiv.org/pdf/2105.06623.pdf)
-实现MTMC-T，
-并结合[百度PaddleDetection的MTMCT框架](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.4/configs/mot/mtmct/README_cn.md)
-进行代码优化，以实现不同场景的MTMC车辆跟踪。
+XSY_MTMCT_base_2主要基于base1进行代码优化，以实现不同场景的MTMC车辆跟踪。
 该repository基于实验流程进行说明并简介相应module。
+* 使用ByteTracker替换FairMot进行单镜头多目标跟踪(MOT/SCT)
+* 添加轨迹过滤策略
 
 ## Requirements
 
