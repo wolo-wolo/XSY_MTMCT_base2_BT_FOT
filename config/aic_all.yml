@@ -1,0 +1,17 @@
+CHALLENGE_DATA_DIR: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/Test_scene/'
+DET_SOURCE_DIR: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/detection/images/test/S06/'
+DATA_DIR: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/detect_merge/'
+REID_SIZE_TEST: [384, 384]    # 384, 256
+ROI_DIR: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/Test_scene/test/S06/'
+CID_BIAS_DIR: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/Test_scene/cam_timestamp/'
+LABEL_DIR: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/Test_scene/test_labels/'
+USE_RERANK: True
+USE_FF: True
+USE_ROI: False  # added by wgj
+USE_ZONE: False  # added by wgj
+USE_ST_FILTER: True  # added by wgj
+USE_CAMERA: False  # added by wgj
+SCORE_THR: 0.1
+#MCMT_OUTPUT_TXT: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/Test_scene/eval/test_gt_S06.txt'
+MCMT_OUTPUT_TXT: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/datasets/Test_scene/eval/mtmct_results/S06_b2_v7w6_bt_fot_test.txt'
+MTMC_VIS_OUTPUT: '/home/amax/XSY-WGJ-MTMCT/baselines/XSY_MTMCT_base2/vis/S06/b2_v7w6_bt_fot/'
